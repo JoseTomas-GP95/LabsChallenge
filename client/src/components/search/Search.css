@@ -1,0 +1,20 @@
+.search {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  height: 15vh;
+  border-bottom: solid #d8d8d8 1px;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.search > h2 {
+  width: 30vw;
+  color: rgb(73, 66, 66)
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+}

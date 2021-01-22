@@ -1,0 +1,16 @@
+.container {
+  background-color: #d8d8d8;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-white {
+  background-color: white;
+  width: 95vw;
+  height: 90vh;
+  display: flex;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
