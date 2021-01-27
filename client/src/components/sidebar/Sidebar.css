@@ -1,6 +1,6 @@
 .sidebar {
-  background-color: white;
-  width: 18vw;
-  height: 84vh;
+  display: flex;
+  flex-direction: column;
+  flex: .20;
   border-right: solid #d8d8d8 1px;
 }

@@ -1,12 +1,13 @@
 .search {
-  background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 80vw;
-  height: 15vh;
   border-bottom: solid #d8d8d8 1px;
-  box-shadow: 0 8px 6px -6px black;
+  /* box-shadow: 0 8px 6px -6px rgb(7, 5, 5); */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+
 }
 
 .search > h2 {

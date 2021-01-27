@@ -1,0 +1,12 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 74vw;
+  height: 65vh;
+  /* background-color: orange; */
+}
+
+div {
+  overflow: auto;
+}

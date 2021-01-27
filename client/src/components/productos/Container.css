@@ -1,16 +1,22 @@
 .container {
-  background-color: #d8d8d8;
-  min-height: 100vh;
-  min-width: 100vw;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  flex: 1;
   align-items: center;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
 }
 
-.container-white {
-  background-color: white;
-  width: 95vw;
-  height: 90vh;
+.container__search {
   display: flex;
-  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+  flex-direction: row;
+  /* background-color: orange; */
+}
+
+.container__cards {
+  display: flex;
+  flex: 1;
+  width: 79vw;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
 }
